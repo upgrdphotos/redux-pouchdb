@@ -14,6 +14,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
+    "lib/",
     "src/",
     "package.json",
     "README.md"
