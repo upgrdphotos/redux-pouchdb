@@ -1,6 +1,6 @@
 {
   "name": "@upgrdphotos/redux-pouchdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sync store state to pouchdb",
   "main": "lib/index.js",
   "scripts": {
