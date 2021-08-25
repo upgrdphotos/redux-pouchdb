@@ -37,7 +37,7 @@ describe('redux-pouchdb array', () => {
   const reducerName = 'counters'
   const finalReducer = persistentCollectionReducer(db, reducerName)(reducer)
 
-  it('should persist store state as array and update', async done => {
+  it('should persist store state as array and update', async () => {
     let store = createStore(finalReducer)
     persistStore(store)
 
@@ -76,7 +76,5 @@ describe('redux-pouchdb array', () => {
     docs
       .filter(doc => doc._id === storeState[payload.index]._id)[0]
       [payload.key].should.be.equal(payload.value)
-
-    done()
   })
 })

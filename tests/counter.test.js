@@ -22,7 +22,7 @@ describe('redux-pouchdb tests', () => {
   const reducerName = 'counter'
   const finalReducer = persistentDocumentReducer(db, reducerName)(reducer)
 
-  it('should persist store state', async done => {
+  it('should persist store state', async () => {
     let store = createStore(finalReducer)
     persistStore(store)
     // console.log('-----go?----')
@@ -55,7 +55,5 @@ describe('redux-pouchdb tests', () => {
 
     x2a.should.be.equal(x2b)
     // console.log('-----done----')
-
-    done()
   })
 })
