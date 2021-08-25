@@ -1,5 +1,7 @@
 # redux-pouchdb
 
+Forked from https://github.com/vicentedealencar/redux-pouchdb.
+
 ## How it is done
 
 It is very simple:
@@ -8,7 +10,7 @@ It is very simple:
 
 ## Install
 
-`yarn add redux-pouchdb@1.0.0-rc.1`
+`yarn add @upgrdphotos/redux-pouchdb@1.0.0`
 
 ## Usage
 
