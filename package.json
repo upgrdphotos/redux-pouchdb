@@ -1,6 +1,6 @@
 {
-  "name": "redux-pouchdb",
-  "version": "1.0.0-rc.3",
+  "name": "@upgrdphotos/redux-pouchdb",
+  "version": "1.0.0",
   "description": "sync store state to pouchdb",
   "main": "lib/index.js",
   "scripts": {
@@ -10,15 +10,17 @@
     "prepare": "npm run clean && npm run build",
     "test": "cross-env BABEL_ENV=testing jest"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
-    "lib/",
     "src/",
     "package.json",
     "README.md"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vicentedealencar/redux-pouchdb"
+    "url": "https://github.com/upgrdphotos/redux-pouchdb"
   },
   "keywords": [
     "redux",
@@ -28,9 +30,9 @@
   "author": "Vicente de Alencar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vicentedealencar/redux-pouchdb/issues"
+    "url": "https://github.com/upgrdphotos/redux-pouchdb/issues"
   },
-  "homepage": "https://github.com/vicentedealencar/redux-pouchdb",
+  "homepage": "https://github.com/upgrdphotos/redux-pouchdb",
   "dependencies": {
     "@babel/runtime": "^7.7.4",
     "ramda": "^0.26.1",
