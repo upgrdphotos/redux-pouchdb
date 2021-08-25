@@ -34,22 +34,22 @@
   },
   "homepage": "https://github.com/upgrdphotos/redux-pouchdb",
   "dependencies": {
-    "@babel/runtime": "^7.7.4",
-    "ramda": "^0.26.1",
-    "timeout-then": "^1.1.0"
+    "@babel/runtime": "^7.15.3",
+    "ramda": "^0.27.1",
+    "timeout-then": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
-    "@babel/plugin-transform-runtime": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "cross-env": "^6.0.3",
-    "jest": "^24.9.0",
-    "memdown": "^5.1.0",
-    "pouchdb": "^7.1.1",
-    "prettier": "^1.19.1",
-    "redux": "^4.0.4",
-    "rimraf": "^3.0.0",
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.6",
+    "memdown": "^6.0.0",
+    "pouchdb": "^7.2.2",
+    "prettier": "^2.3.2",
+    "redux": "^4.1.1",
+    "rimraf": "^3.0.2",
     "should": "^13.2.3"
   },
   "peerDependencies": {
